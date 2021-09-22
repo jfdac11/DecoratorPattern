@@ -14,6 +14,9 @@ namespace Prova1
         *Component - Car.
         *Concrete Component - Sedan, Hatch, SUV.
             
+            Dessa forma é possivel fazer com que é um determinado carro consiga obter funcionalidades advindas de novos decoradores apenas passando
+        o carro como parametro do construtor do decorador concreto, tornando simples e rápida a adição dos recursos em questão.
+        
         */
         static void Main(string[] args)
         {
